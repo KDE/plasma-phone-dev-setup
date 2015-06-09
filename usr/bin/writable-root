@@ -1,0 +1,5 @@
+#!/bin/sh
+sudo touch /userdata/.writable_image
+sudo touch /userdata/.adb_onlock
+
+echo "Please reboot to get write permissions to the rootfs"
