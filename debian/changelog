@@ -1,5 +1,5 @@
-dev-tools (0-1) unstable; urgency=low
+dev-tools (0) UNRELEASED; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 09 Jun 2015 20:54:17 +0200
