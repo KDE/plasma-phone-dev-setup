@@ -1,0 +1,13 @@
+Source: dev-tools
+Section: misc
+Priority: optional
+Maintainer: Rohan Garg <rohangarg@kubuntu.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://github.com/plasma-mobile/dev-tools
+
+Package: dev-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: dev tools for making working on devices easier
+ Tools to modify things on devices
