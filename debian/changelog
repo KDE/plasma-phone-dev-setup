@@ -1,5 +1,5 @@
-dev-tools (0.1) vivid; urgency=low
+plasma-phone-dev-setup (1) vivid; urgency=medium
 
-  * Initial release
+  * Add ssh-setup
 
- -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 09 Jun 2015 20:59:36 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 22:22:23 +0200
