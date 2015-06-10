@@ -1,3 +1,9 @@
+plasma-phone-dev-setup (2) vivid; urgency=medium
+
+  * Add init scripts
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 10 Jun 2015 23:55:06 +0200
+
 plasma-phone-dev-setup (1) vivid; urgency=medium
 
   * Add ssh-setup
