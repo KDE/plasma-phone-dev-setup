@@ -5,8 +5,6 @@
 set -xe
 
 # needed for https://bugs.launchpad.net/ubuntu/+source/gparted/+bug/373409
-ntpdate ntp.ubuntu.com
-
 echo "Resizing your root partition, this may take some time..."
 echo "When done, it will REBOOT the device, make sure you're not losing any work!"
 
@@ -23,7 +21,7 @@ dd if=/dev/loop0 of=/dev/loop2
 
 # then resize the file system on our new device. This may give a warning, accept it
 e2fsck -f /dev/loop2
-resize2fs /dev/loop2
+resize2fs -f /dev/loop2
 
 #now swap over our new image with the old one
 mv system.img system.old
