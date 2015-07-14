@@ -2,6 +2,11 @@
 
 # This script resizes the root partition of the phone, be careful.
 
+set -xe
+
+# needed for https://bugs.launchpad.net/ubuntu/+source/gparted/+bug/373409
+ntpdate ntp.ubuntu.com
+
 echo "Resizing your root partition, this may take some time..."
 echo "When done, it will REBOOT the device, make sure you're not losing any work!"
 
