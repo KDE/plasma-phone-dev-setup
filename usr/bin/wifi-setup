@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -ex
+
 SSID=$1
 PSWD=$2
 

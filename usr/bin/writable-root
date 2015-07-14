@@ -1,4 +1,7 @@
 #!/bin/sh
+
+set -xe
+
 sudo touch /userdata/.writable_image
 sudo touch /userdata/.adb_onlock
 
