@@ -1,9 +1,0 @@
-#!/bin/sh
-
-set -ex
-
-echo manual > /etc/init/ssh.override
-echo "exec /usr/sbin/sshd -D -o PasswordAuthentication=yes" >> /etc/init/ssh.override
-
-sudo service ssh start
-sudo setprop persist.service.ssh true
