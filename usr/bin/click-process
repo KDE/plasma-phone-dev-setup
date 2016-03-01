@@ -22,8 +22,9 @@ do
 
 	sed -i "s|^Icon=|Icon=$pkgdir\/|g" `basename $launcher`
 
-    mkdir -p ~/.local/share/applications/
-	cp /tmp/clicksies/*.desktop ~/.local/share/applications/
+	sed -i "/^Name=.*/s/$/ \(click\)/" `basename $launcher`
+
+	cp /tmp/clicksies/*.desktop /usr/share/applications/
 
     rm -rf /tmp/clicksies
 
